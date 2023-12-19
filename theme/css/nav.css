@@ -1,0 +1,57 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #02111B;/* Transparent background color */
+    padding: 15px 0;
+    z-index: 1000; /* Set a high z-index to keep the menu on top */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.navbar .container {
+    height: 8vh;
+
+    display: flex;
+    flex-direction: row;
+
+    /* this aligns logo horizontally*/
+    align-items: center;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar li {
+    font-size: 1em;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Change the color on hover */
+.navbar a:hover {
+    color: #e44d26;
+}
+
+/* Apply a solid background when scrolled */
+body.scrolled header {
+    background-color: rgba(0, 0, 0, 0.9);
+}

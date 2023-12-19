@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FCFCFC;
+}
+
+.container {
+    width: 80vw;
+    margin: 0 auto;
+    position: relative;
+}
